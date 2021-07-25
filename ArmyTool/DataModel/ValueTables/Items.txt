@@ -1,0 +1,231 @@
+; Items ID Table
+
+; Swords
+0x01	Sonic Blade
+0x02	Durandal
+0x03	Bizen Sword
+0x04	Zepyulos
+0x05	Fafhniel
+0x06	Zanzibar
+0x07	Brunhild
+0x08	Black Katana
+0x09	Sword of Slicing
+0x0A	Mikado Sword
+0x0B	Sword of Heros
+0x0C	Sword of Evil 
+0x0D	Ogre Blade
+0x0E	Flame
+0x0F	Musashi Blade
+0x10	Eskendale Blade
+0x11	Ice Scimiter
+0x12	Ice Blade
+0x13	Peridat Sword
+0x14	Euros
+0x15	Malachite Sword
+0x16	Dwarven Sword
+0x17	Notos
+0x18	Sigmund
+0x19	Broken Sword
+0x1A	Death Claws
+0x1B	Evil Blade
+0x1C	Relic Sword
+0x1D	Dragon's Claw
+0x1E	Pristine Sword
+0x1F	Kusanagi Blade
+0x20	Karanborg
+
+; Spears
+0x21	Dragon Spear
+0x22	Benkey's Glaive
+0x23	Ozrich's Spear
+0x24	Thunder Spear
+
+; Axes
+0x25	Boleas
+0x26	Ice Axe
+0x27	Black Axe
+0x28	Rune Axe
+
+; "Staffs"
+0x29	Battle Dagger
+0x2A	Fire Staff
+0x2B	Flame Flail
+0x2C	Thunder Whip
+0x2D	Demon Hammer 
+0x2E	Kukai's Rod
+0x2F	Mystic Mace
+0x30	Liebel's Rod
+
+; Bows
+0x31	Lightning Bow
+0x32	Black Bow
+
+; Charms
+0x33	Earth Charm
+0x34	Elder Sign
+0x35	Flame Charm
+0x36	Hydra's Fang 
+0x37	Ice Charm
+0x38	Byak's Fang
+0x39	Snow Orb
+0x3A	Thunder Charm
+0x3B	Lightning Orb
+0x3C	Black Charm 
+0x3D	White Charm
+0x3E	Angel's Wing
+
+; Rings
+0x3F	Ring of Power
+0x40	Ring of Magic
+0x41	Dragon Ring
+0x42	Thunder Ring
+0x43	Engraved Ring
+0x44	Demon Ring 
+0x45	Ring of Protection
+
+; Bugles
+0x46	Battle Bugle
+
+; Armor
+0x47	Ninja Garb
+0x48	Samurai Armour
+0x49	Mail of Neil
+0x4A	Golden Mail
+0x4B	Mail of Earth
+0x4C	Houlou's Robe
+0x4D	Snow Cape
+0x4E	Black Armour
+0x4F	Death's Cape
+0x50	White Garb
+0x51	White Cape
+
+; Helmets
+0x52	Pirate's Helm
+0x53	Silver Helmet
+0x54	Silver Tiara
+0x55	Mystic Veil
+0x56	King's Crown
+0x57	Burning Band
+0x58	Ice Bandana
+0x59	Thunder Helm
+0x5A	Demon Mask
+0x5B	Royal Crown
+
+; Gloves
+0x5C	Iron Gloves
+0x5D	Thunder Club
+
+; Sheilds
+0x5E	Spiked Sheild
+0x5F	Power Sheild
+0x60	Honour Sheild
+0x61	Ogre Sheild
+0x62	Fire Sheild
+0x63	Cold Sheild
+0x64	Nue's Sheild
+
+; Special Items
+;0x65	Ginger Cake
+;0x66	Black Lotus
+;0x67	Olden Orb
+;0x68	Book of Good
+;0x69	Flashy Cape
+;0x6A	Gnomish Nugget
+;0x6B	Beautiful Statue
+;0x6C	Platinum Medal
+;0x6D	Mulmy's Map
+;0x6E	The Saga
+;0x6F	Sentoul Demon
+;0x70	Battle Carving
+;0x71	Font of Desire
+;0x72	Wing of Victory
+;0x73	Forest Pendant
+;0x74	Murcury
+;0x75	Lemming Herbs
+;0x76	Zebra Fur
+;0x77	Moon Rose
+;0x78	Statue of Woe
+;0x79	Song of Sodoh
+;0x7A	Golden Goblet
+;0x7B	Gold Medal
+;0x7C	Amatsu Statue
+;0x7D	Dragon's Bones
+;0x7E	Golden Bough
+;0x7F	Evil Censer
+;0x80	Rainbow Shell
+;0x81	Star Fragment
+;0x82	Black Orc's Fur
+;0x83	Beast Coin
+;0x84	Express Cameo
+;0x85	FireSeal
+;0x86	Key of Destiny
+;0x87	Gem of the Moors
+;0x88	Black Pearls
+;0x89	Golden Beehive
+;0x8A	Big Throphy
+;0x8B	Tome of Myths
+;0x8C	Dragon's Jewel
+;0x8D	Gem of Doun
+;0x8E	Tablet of Yaru
+;0x8F	Book of the Dead
+;0x90	Gem of Truth
+;0x91	Sable Fur
+;0x92	Releif Medallion
+;0x93	Ivory Goddess
+;0x94	Box of Salvation
+;0x95	Solom's Chest
+;0x96	Necronomicon
+
+; Usable Items
+;0x97	Stone of Dragos
+;0x98	Undead Staff
+;0x99	Undead Ring
+;0x9A	Blood Kiss
+;0x9B	Royal Crown
+;0x9C	Rotten Pumpkin
+;0x9D	Promotion
+;0x9E	Vitality Potion
+;0x9F	Strength Potion
+;0xA0	Speed Potion
+;0xA1	Tome of Learning
+;0xA2	Heart of Leo
+;0xA3	Soul Mirror
+;0xA4	Lucky Charm
+;0xA5	Cure Potion
+;0xA6	Cure Stone
+;0xA7	Ethereal Flute
+;0xA8	Summoning Chime
+;0xA9	Cure Ankh
+;0xAA	Egg of Wonder
+;0xAB	Full Moon Stone
+;0xAC	Joker Tarot
+;0xAD	Dinner Bell
+;0xAE	Dowsing Rod
+;0xAF	Trade Ticket
+;0xB0	Mass Summons
+;0xB1	Persuasion Spell
+;0xB2	7 League Boots
+;0xB3	Termites
+;0xB4	Moonbeam
+;0xB5	Ray of Sunshine
+;0xB6	Crystal Ball
+;0xB7	Glass Pumpkin
+
+; More Special Items
+;0xB8	Star of Heros
+;0xB9	Bell of Light
+;0xBA	Grail
+;0xBB	Mystic Armband
+;0xBC	Garnet
+;0xBD	Amethyst
+;0xBE	Aquamarine
+;0xBF	Diamond
+;0xC0	Emerald
+;0xC1	Pearl
+;0xC2	Ruby
+;0xC3	Peridot
+;0xC4	Sapphire
+;0xC5	Opal
+;0xC6	Topaz
+;0xC7	Turquoise
+;0xC8	Gem of All

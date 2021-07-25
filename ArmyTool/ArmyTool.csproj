@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FDA6E935-0138-4C68-889B-9A9313AB7BDE}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>BacteriaMage.OgreBattle.ArmyTool</RootNamespace>
+    <AssemblyName>OgreTool</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CLI\Commands\VersionCommand.cs" />
+    <Compile Include="CLI\Commands\HelpCommand.cs" />
+    <Compile Include="CLI\BaseCommand.cs" />
+    <Compile Include="CLI\CommandBuilder.cs" />
+    <Compile Include="CLI\Commands\BaseSlotCommand.cs" />
+    <Compile Include="CLI\Commands\ImportCommand.cs" />
+    <Compile Include="Common\AssemblyInfo.cs" />
+    <Compile Include="Common\CaseInsensitiveComparer.cs" />
+    <Compile Include="Common\Extensions\DictionaryExtensions.cs" />
+    <Compile Include="Common\Extensions\ListExtensions.cs" />
+    <Compile Include="Common\Extensions\TypeExtensions.cs" />
+    <Compile Include="Common\Utils\UserUtils.cs" />
+    <Compile Include="DataFiles\IDataSet.cs" />
+    <Compile Include="DataFiles\MetaReader.cs" />
+    <Compile Include="Metadata\ClassesTable.cs" />
+    <Compile Include="Metadata\Enums.cs" />
+    <Compile Include="Metadata\ClassEntry.cs" />
+    <Compile Include="NamedValues\EnumValues.cs" />
+    <Compile Include="GameSave\Constants.cs" />
+    <Compile Include="Common\Extensions\BoolExtensions.cs" />
+    <Compile Include="Common\Extensions\HexExtensions.cs" />
+    <Compile Include="Common\OgreBattleException.cs" />
+    <Compile Include="Common\Extensions\StringExtensions.cs" />
+    <Compile Include="Common\Utils\FileUtils.cs" />
+    <Compile Include="DataFiles\Columns\StringColumn.cs" />
+    <Compile Include="DataFiles\CsvReader.Columns.cs" />
+    <Compile Include="DataFiles\Columns\HexColumn.cs" />
+    <Compile Include="DataFiles\ReadErrorEventArgs.cs" />
+    <Compile Include="DataFiles\CsvReader.cs" />
+    <Compile Include="DataModel\Character.cs" />
+    <Compile Include="DataModel\CharacterName.cs" />
+    <Compile Include="DataModel\Characters.cs" />
+    <Compile Include="DataFiles\CsvWriter.cs" />
+    <Compile Include="DataModel\Extensions.cs" />
+    <Compile Include="DataModel\MessageEventArgs.cs" />
+    <Compile Include="DataModel\SlotReader.cs" />
+    <Compile Include="DataFiles\Columns\BaseColumn.cs" />
+    <Compile Include="DataFiles\Columns\BooleanColumn.cs" />
+    <Compile Include="DataModel\Columns\CharacterNameColumn.cs" />
+    <Compile Include="DataFiles\Columns\EnumColumn.cs" />
+    <Compile Include="DataFiles\Columns\DecimalColumn.cs" />
+    <Compile Include="DataModel\Columns\TableValueColumn.cs" />
+    <Compile Include="DataModel\SlotWriter.cs" />
+    <Compile Include="DataModel\TableProvider.cs" />
+    <Compile Include="CLI\Commands\ExportCommand.cs" />
+    <Compile Include="GameSave\Character.cs" />
+    <Compile Include="GameSave\CharacterSpans.cs" />
+    <Compile Include="CLI\MessageDisplay.cs" />
+    <Compile Include="NamedValues\TableEntry.cs" />
+    <Compile Include="NamedValues\ValuesTable.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MemorySpan\ByteSpan.cs" />
+    <Compile Include="GameSave\LeaderName.cs" />
+    <Compile Include="GameSave\SaveRam.cs" />
+    <Compile Include="GameSave\Slot.cs" />
+    <Compile Include="GameSave\Unit.cs" />
+    <Compile Include="GameSave\UnitMember.cs" />
+    <Compile Include="MemorySpan\WordSpan.cs" />
+    <Compile Include="CLI\CommandArgs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataModel\ValueTables\Classes.txt" />
+    <None Include="DataModel\ValueTables\Items.txt" />
+    <None Include="DataModel\ValueTables\Names.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataModel\ValueTables\Identities.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

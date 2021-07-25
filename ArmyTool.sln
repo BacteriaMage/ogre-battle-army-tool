@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 15 for Windows Desktop
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmyTool", "ArmyTool\ArmyTool.csproj", "{FDA6E935-0138-4C68-889B-9A9313AB7BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{FA8B4023-8533-4F24-B8C9-FD41E9F8F936}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDA6E935-0138-4C68-889B-9A9313AB7BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA6E935-0138-4C68-889B-9A9313AB7BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA6E935-0138-4C68-889B-9A9313AB7BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA6E935-0138-4C68-889B-9A9313AB7BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA8B4023-8533-4F24-B8C9-FD41E9F8F936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA8B4023-8533-4F24-B8C9-FD41E9F8F936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA8B4023-8533-4F24-B8C9-FD41E9F8F936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA8B4023-8533-4F24-B8C9-FD41E9F8F936}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83D00F78-0162-4DA7-A66F-30800009A445}
+	EndGlobalSection
+EndGlobal
