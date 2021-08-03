@@ -30,7 +30,7 @@ using System.Runtime.InteropServices;
 // The informational version appears in the details tab of the properties popup
 // and is only used for user facing informational purposes. This can be a user
 // friendly version number.
-[assembly: AssemblyInformationalVersion("21.7.0")]
+[assembly: AssemblyInformationalVersion("21.8.0")]
 
 // This is the internal version number that .NET looks at when determining
 // whether to use the assembly. This will also be the file version when the 

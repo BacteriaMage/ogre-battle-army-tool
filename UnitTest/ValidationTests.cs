@@ -106,6 +106,15 @@ namespace BacteriaMage.OgreBattle.UnitTest
         }
 
         [TestMethod]
+        public void InvalidNameCharacter_Error()
+        {
+            AddOpinionLeader();
+            AddCharacter(null, "Jameson", FighterLevel2, 1, Front, Center, false);
+
+            AssertOneError("not a valid character name");
+        }
+
+        [TestMethod]
         public void NoLordName_Error()
         {
             AddCharacter(Pizza, HellHoundLevel4);

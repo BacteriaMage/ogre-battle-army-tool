@@ -452,6 +452,10 @@ namespace BacteriaMage.OgreBattle.ArmyTool.DataModel
             {
                 slotCharacter.Name = nameId.Value;
             }
+            else
+            {
+                ReportError(modelCharacter, $"\"{modelCharacter.Name.NameText}\" is not a valid character name. See Names.txt for available names.");
+            }
         }
 
         private void CopyFields(Character modelCharacter, SlotCharacter slotCharacter)

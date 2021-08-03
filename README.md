@@ -52,7 +52,7 @@ Before writing the imported data to the saved game the tool will validate it to 
 
 **UnitLeader** - Whether the character is the leader of the unit: Yes or No. Can also be blank for non-leader units.
 
-**The Level**, HitPoints, Strength, Agility, Intelligence, Charisma, Alignment, Luck, Exp, and Salary columns correspond directly with the in-game statistic.
+**The Level**, **HitPoints**, **Strength**, **Agility**, **Intelligence**, **Charisma**, **Alignment**, **Luck**, **Exp**, and **Salary** columns correspond directly with the in-game statistic.
 
 ## Tables
 
